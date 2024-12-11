@@ -1,4 +1,4 @@
-import imp
+
 import sys
 import pygame
 from settings import Settings     

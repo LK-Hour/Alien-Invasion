@@ -10,7 +10,7 @@ class Ship:
         self.screen_rect = ai_game.screen.get_rect()
         
         #load the ship image and get its rect
-        self.image = pygame.image.load('D:\Documents\Python\Python Crash Course\Alien Invasion\images\ship.bmp')
+        self.image = pygame.image.load('Alien-Invasion/Alien invasion/images/ship.bmp')
         self.rect = self.image.get_rect()
         #start each new ship at the bottop center of the screen
         self.rect.midbottom = self.screen_rect.midbottom
